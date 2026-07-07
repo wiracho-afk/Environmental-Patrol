@@ -148,14 +148,15 @@
 
 <script>
    // 1. วางค่า Firebase Config ของคุณที่นี่
-    const firebaseConfig = {
-  apiKey: "AIzaSyBAt4X7I-rcaNDmBBONdNFAFh5UUeuiVBo",
-  authDomain: "environmental-patrol.firebaseapp.com",
-  projectId: "environmental-patrol",
-  storageBucket: "environmental-patrol.firebasestorage.app",
-  messagingSenderId: "987894851199",
-  appId: "1:987894851199:web:6ff9799e8c8f81f6ad414a",
-  measurementId: "G-9JPN1S5FZ8"
+const firebaseConfig = {
+  apiKey: "AIzaSyCAat2-nHhFPHtavdMGbCHaSG0v7nffBA8",
+  authDomain: "environmental-patrol1.firebaseapp.com",
+  databaseURL: "https://environmental-patrol1-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "environmental-patrol1",
+  storageBucket: "environmental-patrol1.firebasestorage.app",
+  messagingSenderId: "1010405553996",
+  appId: "1:1010405553996:web:4c92f7d416cd2c94dac1e9",
+  measurementId: "G-RKV9VN549Z"
 };
     let qs = JSON.parse(localStorage.getItem('w_qs')) || ["แยกขยะถูกต้อง", "มีฝาปิดมิดชิด", "ป้ายชัดเจน", "ขยะไม่ล้น", "สะอาดเรียบร้อย"];
     let ls = JSON.parse(localStorage.getItem('w_ls')) || [{a:"คลังสินค้า", n:"สมชาย"}];
